@@ -1,0 +1,178 @@
+root{
+    counter-reset:licznik;
+    background-image: url("backround-forest.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+name{
+    font-size:50px;
+	font-weight:bold;
+    color:#C70039;
+    font-weight:bold;
+    display:block;
+    margin:40px 0px 15px 0px;
+	text-align:center;
+}
+opis{
+	font-size:20px;
+	font-weight:bold;
+        font-family: helvetica;
+	display:block;
+        width:40%;
+	text-align:center;
+        margin-left: 30%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+	//margin: 20px 130px 30px 130px;
+	border:hidden;
+	background: rgba(60,60,200,0.7);
+	border-radius: 15px;
+	padding:5px;
+}
+
+autorzy{
+	font-weight:bold;
+    font-size:20px;
+    display:block;
+	color: red;
+	text-shadow: 1px 2px #c68fbb;
+	text-align:center;
+}
+
+autorzy::before{
+	content:"Autorzy: ";
+}
+
+student +student::before{
+    content: "& ";
+}
+
+film{
+    background-color: rgba(255, 195, 0,0.7) ;
+    display:block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ff0000;
+    margin-left: 2.3%;
+    margin-right: 2.3%;
+    margin-bottom: 5px;
+    width:45%;
+    float:left;
+    transition: 0.5s;
+}
+gatunki{
+    display:none;
+}
+
+tytul,rezyser,scenariusz,budzet,box_office,data_premiery,ocena_filmweb,kraj_produkcji{
+    display:block;
+    text-align: center;
+	font-weight:bold;
+}
+budzet,box_office,data_premiery,ocena_filmweb,kraj_produkcji{
+    margin-top: 15px;
+}
+
+rezyser,scenariusz{
+    margin-top: 30px;
+}
+
+scenariusz,box_office,ocena_filmweb{
+    margin-right: 10%;
+    float:right;
+    width:40%;
+}
+
+rezyser,budzet,data_premiery{
+    margin-left: 10%;
+    width: 40%;
+    float:left;
+}
+
+kraj_produkcji{
+    width:100%;
+    float:left;
+}
+
+
+film::before{
+    margin-top: 30px;
+    width:45%;
+    position: absolute;
+    display: block;
+    text-align: center;
+    font-style:oblique;
+    font-size:20px;
+    white-space: pre;
+	font-weight:bold;
+    content: "Gatunek: "attr(gatunekID);
+}
+film::after{
+    margin-top: 20px;
+    display:block;
+    text-align: left;
+    position: absolute;
+    font-size: 50px;
+    font-weight:bold;
+    counter-increment: licznik;
+    content:counter(licznik)".";
+}
+
+tytul{
+    font-weight:bold;
+    font-size:25px;
+}
+rezyser::before{
+    content: "Reżyser: ";
+}
+scenariusz::before{
+    content: "Scenariusz: ";
+}
+budzet::before{
+    content: "Budżet: ";
+}
+budzet::after{
+    content: '$'
+}
+box_office::before{
+    content: 'Box office: ';
+}
+box_office::after{
+    content: '$'
+}
+data_premiery::before{
+    content: "Data premiery: ";
+}
+ocena_filmweb::before{
+    content: "Ocena na Filmweb: ";
+}
+kraj_produkcji::before{
+    content: "Kraj produkcji: ";
+}
+
+film:hover[gatunekID=Fantasy]{
+    background: rgba(0, 0, 255, 0.7);
+}
+film:hover[gatunekID=Sci-Fi]{
+    background: rgba(255,0,0,0.7);
+}
+film:hover[gatunekID=Dramat]{
+    background: rgba(0,255,0,0.7);
+}
+film:hover[gatunekID=Thriller]{
+    background: rgba(255,255,0,0.7);
+}
+film:hover[gatunekID=Historyczny]{
+    background: rgba(0,255,255,0.7);
+}
+film:hover[gatunekID=Komedia]{
+    background: rgba(255,0,255,0.7);
+}
+film:hover[gatunekID=Wojenny]{
+    background: rgba(128,0,128,0.7);
+}
+film:hover[gatunekID=Katastroficzny]{
+    background: rgba(0,0,128,0.7);
+}

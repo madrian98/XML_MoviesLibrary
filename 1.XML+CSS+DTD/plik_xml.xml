@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE root SYSTEM "plik_dtd.dtd">
+<root>
+    <name>Kolekcja filmów</name>
+    <opis>Album wybranych filmów według popularności na portalu filmweb</opis>
+    <autorzy>
+        <student>Mateusz Adrian</student>
+        <student>Krystian Kikowski</student>
+    </autorzy>
+<gatunki>
+    <gatunek gatunekID= "Fantasy">Fantasy</gatunek>
+    <gatunek gatunekID="Sci-Fi">Sci-Fi</gatunek>
+    <gatunek gatunekID="Dramat">Dramat</gatunek>
+    <gatunek gatunekID="Thriller">Thriller</gatunek>
+    <gatunek gatunekID="Historyczny">Historyczny</gatunek>
+    <gatunek gatunekID="Komedia">Komedia</gatunek>
+    <gatunek gatunekID="Wojenny">Wojenny</gatunek>
+    <gatunek gatunekID="Katastroficzny">Katastroficzny</gatunek>
+</gatunki>
+<kolekcja_filmów>
+   <film gatunekID= "Fantasy" >
+        <tytul>Lord of the Rings: The Two Towers</tytul>
+        <rezyser> Peter Jackson</rezyser>
+        <scenariusz> Peter Jackson</scenariusz>
+        <budzet>94 000 000</budzet>
+        <box_office>951 227 065</box_office>
+        <data_premiery>05.12.2002</data_premiery>
+        <ocena_filmweb>8.3</ocena_filmweb>
+        <kraj_produkcji>Nowa Zelandia / USA</kraj_produkcji>
+    </film>
+	<film gatunekID= "Sci-Fi" > 
+        <tytul> Blade Runner 2049 </tytul>
+        <rezyser> Denis Villeneuve </rezyser>
+        <scenariusz> Hampton Fancher / Michael Green </scenariusz>
+        <budzet> 150 000 000 </budzet>
+        <box_office> 259 239 658 </box_office>
+        <data_premiery> 03.10.2017</data_premiery>
+        <ocena_filmweb> 7.5 </ocena_filmweb>
+        <kraj_produkcji> Kanada / USA / Węgry / Wielka Brytania </kraj_produkcji>
+    </film>
+	<film gatunekID= "Dramat" > 
+        <tytul> The Green Mile </tytul>
+        <rezyser> Frank Darabont </rezyser>
+        <scenariusz> Frank Darabont </scenariusz>
+        <budzet> 60 000 000 </budzet>
+        <box_office> 286 801 374 </box_office>
+        <data_premiery> 06.12.1999</data_premiery>
+        <ocena_filmweb> 8.6 </ocena_filmweb>
+        <kraj_produkcji> USA </kraj_produkcji>
+    </film>
+	<film gatunekID= "Dramat" > 
+        <tytul> The Shawshank Redemption </tytul>
+        <rezyser> Frank Darabont </rezyser>
+        <scenariusz> Frank Darabont </scenariusz>
+        <budzet> 25 000 000 </budzet>
+        <box_office> 59 841 469 </box_office>
+        <data_premiery> 10.09.1994</data_premiery>
+        <ocena_filmweb> 8.8 </ocena_filmweb>
+        <kraj_produkcji> USA </kraj_produkcji>
+    </film>
+	<film gatunekID= "Dramat" > 
+        <tytul> Forrest Gump </tytul>
+        <rezyser> Robert Zemeckis </rezyser>
+        <scenariusz> Eric Roth </scenariusz>
+        <budzet> 55 000 000 </budzet>
+        <box_office> 683 095 371 </box_office>
+        <data_premiery> 23.06.1994</data_premiery>
+        <ocena_filmweb> 8.5 </ocena_filmweb>
+        <kraj_produkcji> USA </kraj_produkcji>
+    </film>
+	<film gatunekID= "Sci-Fi" > 
+        <tytul> The Matrix </tytul>
+        <rezyser> Lilly Wachowski / Lana Wachowski  </rezyser>
+        <scenariusz> Lilly Wachowski / Lana Wachowski  </scenariusz>
+        <budzet> 63 000 000 </budzet>
+        <box_office> 465 351 367  </box_office>
+        <data_premiery> 24.03.1999</data_premiery>
+        <ocena_filmweb> 7.6 </ocena_filmweb>
+        <kraj_produkcji> Australia / USA </kraj_produkcji>
+    </film>
+	<film gatunekID= "Thriller" > 
+        <tytul> The Silence of the Lambs </tytul>
+        <rezyser> Jonathan Demme </rezyser>
+        <scenariusz> Ted Tally </scenariusz>
+        <budzet> 19 000 000 </budzet>
+        <box_office> 272 742 922 </box_office>
+        <data_premiery> 30.01.1991</data_premiery>
+        <ocena_filmweb> 8.2 </ocena_filmweb>
+        <kraj_produkcji> USA </kraj_produkcji>
+    </film>
+	<film gatunekID= "Historyczny" > 
+        <tytul> Gladiator </tytul>
+        <rezyser> Ridley Scott </rezyser>
+        <scenariusz> David Franzoni </scenariusz>
+        <budzet> 103 000 000 </budzet>
+        <box_office> 465 361 176  </box_office>
+        <data_premiery> 01.05.2000</data_premiery>
+        <ocena_filmweb> 8.1 </ocena_filmweb>
+        <kraj_produkcji> USA / Wielka Brytania </kraj_produkcji>
+    </film>
+	<film gatunekID= "Sci-Fi" > 
+        <tytul> Avatar </tytul>
+        <rezyser> James Cameron </rezyser>
+        <scenariusz> James Cameron </scenariusz>
+        <budzet> 237 000 000 </budzet>
+        <box_office> 2 790 439 092  </box_office>
+        <data_premiery> 10.02.2009</data_premiery>
+        <ocena_filmweb> 8.5 </ocena_filmweb>
+        <kraj_produkcji> USA / Wielka Brytania </kraj_produkcji>
+    </film>
+	<film gatunekID= "Komedia" > 
+        <tytul> Shrek </tytul>
+        <rezyser> Andrew Adamson / Vicky Jenson  </rezyser>
+        <scenariusz> Joe Stillman </scenariusz>
+        <budzet> 60 000 000 </budzet>
+        <box_office> 487 769 799  </box_office>
+        <data_premiery> 22.04.2001</data_premiery>
+        <ocena_filmweb> 7.8 </ocena_filmweb>
+        <kraj_produkcji> USA </kraj_produkcji>
+    </film>
+	<film gatunekID= "Wojenny" > 
+        <tytul> Saving Private Ryan </tytul>
+        <rezyser> Steven Spielberg </rezyser>
+        <scenariusz> Robert Rodat </scenariusz>
+        <budzet> 70 000 000 </budzet>
+        <box_office> 482 349 603  </box_office>
+        <data_premiery> 24.07.1998</data_premiery>
+        <ocena_filmweb> 8.1 </ocena_filmweb>
+        <kraj_produkcji> USA </kraj_produkcji>
+    </film>
+	<film gatunekID= "Katastroficzny" > 
+        <tytul> Titanic </tytul>
+        <rezyser> James Cameron </rezyser>
+        <scenariusz> James Cameron </scenariusz>
+        <budzet> 200 000 000 </budzet>
+        <box_office> 2 195 169 138  </box_office>
+        <data_premiery> 01.11.1997</data_premiery>
+        <ocena_filmweb> 7.3 </ocena_filmweb>
+        <kraj_produkcji> USA </kraj_produkcji>
+    </film>
+	<film gatunekID= "Sci-Fi" > 
+        <tytul> Inception </tytul>
+        <rezyser> Christopher Nolan </rezyser>
+        <scenariusz> Christopher Nolan </scenariusz>
+        <budzet> 160 000 000 </budzet>
+        <box_office> 836 836 967  </box_office>
+        <data_premiery> 08.07.2010</data_premiery>
+        <ocena_filmweb> 8.3 </ocena_filmweb>
+        <kraj_produkcji> USA / Wielka Brytania </kraj_produkcji>
+    </film>
+	<film gatunekID= "Wojenny" > 
+        <tytul> The Pianist </tytul>
+        <rezyser>  Roman Polanski </rezyser>
+        <scenariusz> Ronald Harwood </scenariusz>
+        <budzet> 35 000 000 </budzet>
+        <box_office> 120 072 577  </box_office>
+        <data_premiery> 24.05.2002</data_premiery>
+        <ocena_filmweb> 8.3 </ocena_filmweb>
+        <kraj_produkcji> Francja / Niemcy / Polska / Wielka Brytania </kraj_produkcji>
+    </film>
+	<film gatunekID= "Fantasy" > 
+        <tytul> Pirates of the Caribbean: The Curse of the Black Pearl </tytul>
+        <rezyser>  Gore Verbinski </rezyser>
+        <scenariusz> Ted Elliott / Terry Rossio  </scenariusz>
+        <budzet> 140 000 000 </budzet>
+        <box_office> 654 264 015  </box_office>
+        <data_premiery> 28.06.2003</data_premiery>
+        <ocena_filmweb> 7.7 </ocena_filmweb>
+        <kraj_produkcji> USA </kraj_produkcji>
+    </film>
+	<film gatunekID= "Dramat" > 
+        <tytul> Schindler's List </tytul>
+        <rezyser>  Steven Spielberg  </rezyser>
+        <scenariusz> Steven Zaillian  </scenariusz>
+        <budzet> 96 898 818  </budzet>
+        <box_office> 322 139 355   </box_office>
+        <data_premiery> 30.11.1993</data_premiery>
+        <ocena_filmweb> 8.4 </ocena_filmweb>
+        <kraj_produkcji> USA </kraj_produkcji>
+    </film>
+	<film gatunekID= "Fantasy" >
+        <tytul> The Lord of the Rings: The Return of the King </tytul>
+        <rezyser> Peter Jackson </rezyser>
+        <scenariusz> Peter Jackson </scenariusz>
+        <budzet> 94 000 000 </budzet>
+        <box_office> 1 141 999 888  </box_office>
+        <data_premiery> 01.12.2003 </data_premiery>
+        <ocena_filmweb> 8.4 </ocena_filmweb>
+        <kraj_produkcji> Nowa Zelandia / USA </kraj_produkcji>
+    </film>
+	<film gatunekID= "Dramat" > 
+        <tytul> Slumdog Millionaire </tytul>
+        <rezyser> Danny Boyle </rezyser>
+        <scenariusz> Simon Beaufoy  </scenariusz>
+        <budzet> 15 000 000  </budzet>
+        <box_office> 377 910 544  </box_office>
+        <data_premiery> 30.08.2008</data_premiery>
+        <ocena_filmweb> 7.4 </ocena_filmweb>
+        <kraj_produkcji> Wielka Brytania </kraj_produkcji>
+    </film>
+	<film gatunekID= "Dramat" > 
+        <tytul> Cast Away </tytul>
+        <rezyser> Robert Zemeckis </rezyser>
+        <scenariusz> William Broyles Jr.  </scenariusz>
+        <budzet> 90 000 000  </budzet>
+        <box_office> 429 632 142  </box_office>
+        <data_premiery> 07.12.2000</data_premiery>
+        <ocena_filmweb> 7.5 </ocena_filmweb>
+        <kraj_produkcji> USA </kraj_produkcji>
+    </film>
+	<film gatunekID= "Thriller" > 
+        <tytul> The Da Vinci Code </tytul>
+        <rezyser> Ron Howard </rezyser>
+        <scenariusz> Akiva Goldsman  </scenariusz>
+        <budzet> 125 000 000  </budzet>
+        <box_office> 760 006 945  </box_office>
+        <data_premiery> 17.05.2006</data_premiery>
+        <ocena_filmweb> 6.7 </ocena_filmweb>
+        <kraj_produkcji> Francja / USA / Wielka Brytania / Malta </kraj_produkcji>
+    </film>
+	<film gatunekID= "Sci-Fi" > 
+        <tytul> Interstellar </tytul>
+        <rezyser> Christopher Nolan </rezyser>
+        <scenariusz> Christopher Nolan / Jonathan Nolan  </scenariusz>
+        <budzet> 165 000 000  </budzet>
+        <box_office> 695 273 265   </box_office>
+        <data_premiery> 26.10.204</data_premiery>
+        <ocena_filmweb> 7.4 </ocena_filmweb>
+        <kraj_produkcji> USA / Wielka Brytania </kraj_produkcji>
+    </film>
+	<film gatunekID= "Sci-Fi" > 
+        <tytul> The Dark Knight Rises </tytul>
+        <rezyser> Christopher Nolan </rezyser>
+        <scenariusz> Christopher Nolan / Jonathan Nolan  </scenariusz>
+        <budzet> 250 000 000  </budzet>
+        <box_office> 1 081 094 887    </box_office>
+        <data_premiery> 16.07.2012</data_premiery>
+        <ocena_filmweb> 7.7 </ocena_filmweb>
+        <kraj_produkcji> USA / Wielka Brytania </kraj_produkcji>
+    </film>
+</kolekcja_filmów>
+</root>

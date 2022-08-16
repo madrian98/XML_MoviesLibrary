@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><moviesReport>
+    <description>
+        <name>Kolekcja filmów</name>
+        <authors>
+            <author author="Mateusz Adrian"/>
+            <author author="Krystian Kikowski"/>
+        </authors>
+    </description>
+    <moviesList>
+        <movie genre="Dramat" director="Robert Zemeckis" scenarist="William Broyles Jr." budget="90000000" boxOffice="429632142" premiere="07-12-2000" rate="7.5" countryOfProduction="Stany Zjednoczone">Cast Away</movie>
+        <movie genre="Dramat" director="Robert Zemeckis" scenarist="Eric Roth" budget="55000000" boxOffice="683095371" premiere="23-06-1994" rate="8.5" countryOfProduction="Stany Zjednoczone">Forrest Gump</movie>
+        <movie genre="Dramat" director="Steven Spielberg" scenarist="Steven Zaillian" budget="96898818" boxOffice="322139355" premiere="30-11-1993" rate="8.4" countryOfProduction="Stany Zjednoczone">Schindler's List</movie>
+        <movie genre="Dramat" director="Danny Boyle" scenarist="Simon Beaufoy" budget="15000000" boxOffice="377910544" premiere="30-08-2008" rate="7.4" countryOfProduction="Wielka Brytania">Slumdog Millionaire</movie>
+        <movie genre="Dramat" director="Frank Darabont" scenarist="Frank Darabont" budget="60000000" boxOffice="286801374" premiere="06-12-1999" rate="8.6" countryOfProduction="Stany Zjednoczone">The Green Mile</movie>
+        <movie genre="Dramat" director="Frank Darabont" scenarist="Frank Darabont" budget="25000000" boxOffice="59841469" premiere="10-09-1994" rate="8.8" countryOfProduction="Stany Zjednoczone">The Shawshank Redemption</movie>
+        <movie genre="Fantasy" director="Peter Jackson" scenarist="Peter Jackson" budget="94000000" boxOffice="951227065" premiere="05-12-2002" rate="8.3" countryOfProduction="Nowa Zelandia">Lord of the Rings: The Two Towers</movie>
+        <movie genre="Fantasy" director="Gore Verbinski" scenarist="Ted Elliott" budget="140000000" boxOffice="654264015" premiere="28-06-2003" rate="7.7" countryOfProduction="Stany Zjednoczone">Pirates of the Caribbean: The Curse of the Black Pearl</movie>
+        <movie genre="Fantasy" director="Peter Jackson" scenarist="Peter Jackson" budget="94000000" boxOffice="1141999888" premiere="01-12-2003" rate="8.4" countryOfProduction="Stany Zjednoczone">The Lord of the Rings: The Return of the King</movie>
+        <movie genre="Historyczny" director="Ridley Scott" scenarist="David Franzoni" budget="103000000" boxOffice="465361176" premiere="01-05-2000" rate="8.1" countryOfProduction="Wielka Brytania">Gladiator</movie>
+        <movie genre="Katastroficzny" director="James Cameron" scenarist="James Cameron" budget="200000000" boxOffice="2195169138" premiere="01-11-1997" rate="7.3" countryOfProduction="Stany Zjednoczone">Titanic</movie>
+        <movie genre="Komedia" director="Andrew Adamson" scenarist="Joe Stillman" budget="6000000" boxOffice="487769799" premiere="22-04-2001" rate="7.8" countryOfProduction="Stany Zjednoczone">Shrek</movie>
+        <movie genre="Sci-Fi" director="James Cameron" scenarist="James Cameron" budget="237000000" boxOffice="2790439092" premiere="10-02-2009" rate="8.5" countryOfProduction="Wielka Brytania">Avatar</movie>
+        <movie genre="Sci-Fi" director="Denis Villeneuve" scenarist="Hampton Fancher" budget="150000000" boxOffice="259239658" premiere="03-10-2017" rate="7.5" countryOfProduction="Kanada">Blade Runner 2049</movie>
+        <movie genre="Sci-Fi" director="Christopher Nolan" scenarist="Christopher Nolan" budget="160000000" boxOffice="836836967" premiere="08-07-2010" rate="8.3" countryOfProduction="Stany Zjednoczone">Inception</movie>
+        <movie genre="Sci-Fi" director="Christopher Nolan" scenarist="Jonathan Nolan" budget="165000000" boxOffice="695273265" premiere="26-10-2014" rate="7.4" countryOfProduction="Wielka Brytania">Interstellar</movie>
+        <movie genre="Sci-Fi" director="Christopher Nolan" scenarist="Christopher Nolan" budget="250000000" boxOffice="1081094887" premiere="16-07-2012" rate="7.7" countryOfProduction="Wielka Brytania">The Dark Knight Rises</movie>
+        <movie genre="Sci-Fi" director="Lilly Wachowski" scenarist="Lana Wachowski" budget="63000000" boxOffice="465351367" premiere="24-03-1999" rate="7.6" countryOfProduction="Australia">The Matrix</movie>
+        <movie genre="Thriller" director="Ron Howard" scenarist="Akiva Goldsman" budget="125000000" boxOffice="760006945" premiere="17-05-2006" rate="6.7" countryOfProduction="Francja">The Da Vinci Code</movie>
+        <movie genre="Thriller" director="Jonathan Demme" scenarist="Ted Tally" budget="19000000" boxOffice="272742922" premiere="30-01-1991" rate="8.2" countryOfProduction="Stany Zjednoczone">The Silence of the Lambs</movie>
+        <movie genre="Wojenny" director="Steven Spielberg" scenarist="Robert Rodat" budget="70000000" boxOffice="482349603" premiere="24-07-1998" rate="8.1" countryOfProduction="Stany Zjednoczone">Saving Private Ryan</movie>
+        <movie genre="Wojenny" director="Roman Polanski" scenarist="Ronald Harwood" budget="35000000" boxOffice="120072577" premiere="24-05-2002" rate="8.3" countryOfProduction="Francja">The Pianist</movie>
+    </moviesList>
+    <summary>
+        <genresCount>8</genresCount>
+        <genres>
+            <fantasyCount>3</fantasyCount>
+            <sciFiCount>6</sciFiCount>
+            <dramaCount>6</dramaCount>
+            <thillerCount>2</thillerCount>
+            <historicalCount>1</historicalCount>
+            <comedyCount>1</comedyCount>
+            <warCount>2</warCount>
+            <catastrophicCount>1</catastrophicCount>
+        </genres>
+        <averageRating>7.96</averageRating>
+        <avgRatingByGenres>
+            <fantasyRating>8.13</fantasyRating>
+            <sciFiRating>7.83</sciFiRating>
+            <dramaRating>8.20</dramaRating>
+            <thillerRating>7.45</thillerRating>
+            <historicalRating>8.10</historicalRating>
+            <comedyRating>7.80</comedyRating>
+            <warRating>8.20</warRating>
+            <catastrophicRating>7.30</catastrophicRating>
+        </avgRatingByGenres>
+        <averageBudget>102,404,492</averageBudget>
+        <avgBudgetByGenres>
+            <fantasyBudget>109,333,333</fantasyBudget>
+            <sciFiBudget>170,833,333</sciFiBudget>
+            <dramaBudget>56,983,136</dramaBudget>
+            <thillerBudget>72,000,000</thillerBudget>
+            <historicalBudget>103,000,000</historicalBudget>
+            <comedyBudget>6,000,000</comedyBudget>
+            <warBudget>52,500,000</warBudget>
+            <catastrophicBudget>200,000,000</catastrophicBudget>
+        </avgBudgetByGenres>
+        <averageGain>616,623,627</averageGain>
+        <avgGainByGenres>
+            <fantasyGain>2,638,157,635</fantasyGain>
+            <sciFiGain>5,957,401,903</sciFiGain>
+            <dramaGain>2,102,437,119</dramaGain>
+            <thillerGain>960,749,867</thillerGain>
+            <historicalGain>362,361,176</historicalGain>
+            <comedyGain>481,769,799</comedyGain>
+            <warGain>549,922,180</warGain>
+            <catastrophicGain>1,995,169,138</catastrophicGain>
+        </avgGainByGenres>
+    </summary>
+</moviesReport>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <name>Kolekcja filmów</name>
+    <opis>Album wybranych filmów według popularności na portalu filmweb</opis>
+    <autorzy>
+        <student>Mateusz Adrian</student>
+        <student>Krystian Kikowski</student>
+  </autorzy>
+<country>
+	<kraj_produkcji country_id="gb">Wielka Brytania</kraj_produkcji>
+	<kraj_produkcji country_id="us">Stany Zjednoczone</kraj_produkcji>
+	<kraj_produkcji country_id="nz">Nowa Zelandia</kraj_produkcji>
+	<kraj_produkcji country_id="kd">Kanada</kraj_produkcji>
+	<kraj_produkcji country_id="au">Australia</kraj_produkcji>
+	<kraj_produkcji country_id="fr">Francja</kraj_produkcji>
+</country>	
+<gatunki>
+    <gatunek gatunek="Fantasy">Fantasy</gatunek>
+    <gatunek gatunek="Sci-Fi">Sci-Fi</gatunek>
+    <gatunek gatunek="Dramat">Dramat</gatunek>
+    <gatunek gatunek="Thriller">Thriller</gatunek>
+    <gatunek gatunek="Historyczny">Historyczny</gatunek>
+    <gatunek gatunek="Komedia">Komedia</gatunek>
+    <gatunek gatunek="Wojenny">Wojenny</gatunek>
+    <gatunek gatunek="Katastroficzny">Katastroficzny</gatunek>
+</gatunki>
+<kolekcja_filmów>
+   <film gatunekID= "Fantasy" kraj_id="nz" obejrzane="Tak">
+        <tytul>Lord of the Rings: The Two Towers</tytul>
+        <rezyser>Peter Jackson</rezyser>
+        <scenariusz>Peter Jackson</scenariusz>
+        <budzet>94000000</budzet>
+        <box_office>951227065</box_office>
+        <data_premiery>05-12-2002</data_premiery>
+        <ocena_filmweb>8.3</ocena_filmweb>
+  </film>
+	<film gatunekID= "Sci-Fi" kraj_id="kd" >
+        <tytul>Blade Runner 2049</tytul>
+        <rezyser>Denis Villeneuve</rezyser>
+        <scenariusz>Hampton Fancher</scenariusz>
+        <budzet>150000000</budzet>
+        <box_office>259239658</box_office>
+        <data_premiery>03-10-2017</data_premiery>
+        <ocena_filmweb>7.5</ocena_filmweb>
+  </film>
+	<film gatunekID= "Dramat" kraj_id="us">
+        <tytul>The Green Mile</tytul>
+        <rezyser>Frank Darabont</rezyser>
+        <scenariusz>Frank Darabont</scenariusz>
+        <budzet>60000000</budzet>
+        <box_office>286801374</box_office>
+        <data_premiery>06-12-1999</data_premiery>
+        <ocena_filmweb>8.6</ocena_filmweb>
+  </film>
+	<film gatunekID= "Dramat" kraj_id="us" obejrzane="Tak">
+        <tytul>The Shawshank Redemption</tytul>
+        <rezyser>Frank Darabont</rezyser>
+        <scenariusz>Frank Darabont</scenariusz>
+        <budzet>25000000</budzet>
+        <box_office>59841469</box_office>
+        <data_premiery>10-09-1994</data_premiery>
+        <ocena_filmweb>8.8</ocena_filmweb>
+  </film>
+	<film gatunekID= "Dramat" kraj_id="us">
+        <tytul>Forrest Gump</tytul>
+        <rezyser>Robert Zemeckis</rezyser>
+        <scenariusz>Eric Roth</scenariusz>
+        <budzet>55000000</budzet>
+        <box_office>683095371</box_office>
+        <data_premiery>23-06-1994</data_premiery>
+        <ocena_filmweb>8.5</ocena_filmweb>
+  </film>
+	<film gatunekID= "Sci-Fi" kraj_id="au" >
+        <tytul>The Matrix</tytul>
+        <rezyser>Lilly Wachowski</rezyser>
+        <scenariusz>Lana Wachowski</scenariusz>
+        <budzet>63000000</budzet>
+        <box_office>465351367</box_office>
+        <data_premiery>24-03-1999</data_premiery>
+        <ocena_filmweb>7.6</ocena_filmweb>
+  </film>
+	<film gatunekID= "Thriller" kraj_id="us" >
+        <tytul>The Silence of the Lambs</tytul>
+        <rezyser>Jonathan Demme</rezyser>
+        <scenariusz>Ted Tally</scenariusz>
+        <budzet>19000000</budzet>
+        <box_office>272742922</box_office>
+        <data_premiery>30-01-1991</data_premiery>
+        <ocena_filmweb>8.2</ocena_filmweb>
+  </film>
+	<film gatunekID= "Historyczny" kraj_id="gb" obejrzane="Tak">
+        <tytul>Gladiator</tytul>
+        <rezyser>Ridley Scott</rezyser>
+        <scenariusz>David Franzoni</scenariusz>
+        <budzet>103000000</budzet>
+        <box_office>465361176</box_office>
+        <data_premiery>01-05-2000</data_premiery>
+        <ocena_filmweb>8.1</ocena_filmweb>
+  </film>
+	<film gatunekID= "Sci-Fi" kraj_id="gb">
+        <tytul>Avatar</tytul>
+        <rezyser>James Cameron</rezyser>
+        <scenariusz>James Cameron</scenariusz>
+        <budzet>237000000</budzet>
+        <box_office>2790439092</box_office>
+        <data_premiery>10-02-2009</data_premiery>
+        <ocena_filmweb>8.5</ocena_filmweb>
+  </film>
+	<film gatunekID= "Komedia" kraj_id="us">
+        <tytul>Shrek</tytul>
+        <rezyser>Andrew Adamson</rezyser>
+        <scenariusz>Joe Stillman</scenariusz>
+        <budzet>6000000</budzet>
+        <box_office>487769799</box_office>
+        <data_premiery>22-04-2001</data_premiery>
+        <ocena_filmweb>7.8</ocena_filmweb>
+  </film>
+	<film gatunekID= "Wojenny" kraj_id="us" >
+        <tytul>Saving Private Ryan</tytul>
+        <rezyser>Steven Spielberg</rezyser>
+        <scenariusz>Robert Rodat</scenariusz>
+        <budzet>70000000</budzet>
+        <box_office>482349603</box_office>
+        <data_premiery>24-07-1998</data_premiery>
+        <ocena_filmweb>8.1</ocena_filmweb>
+  </film>
+	<film gatunekID= "Katastroficzny" kraj_id="us" obejrzane="Tak">
+        <tytul>Titanic</tytul>
+        <rezyser>James Cameron</rezyser>
+        <scenariusz>James Cameron</scenariusz>
+        <budzet>200000000</budzet>
+        <box_office>2195169138</box_office>
+        <data_premiery>01-11-1997</data_premiery>
+        <ocena_filmweb>7.3</ocena_filmweb>
+  </film>
+	<film gatunekID= "Sci-Fi" kraj_id="us">
+        <tytul>Inception</tytul>
+        <rezyser>Christopher Nolan</rezyser>
+        <scenariusz>Christopher Nolan</scenariusz>
+        <budzet>160000000</budzet>
+        <box_office>836836967</box_office>
+        <data_premiery>08-07-2010</data_premiery>
+        <ocena_filmweb>8.3</ocena_filmweb>
+  </film>
+	<film gatunekID= "Wojenny" kraj_id="fr">
+        <tytul>The Pianist</tytul>
+        <rezyser>Roman Polanski</rezyser>
+        <scenariusz>Ronald Harwood</scenariusz>
+        <budzet>35000000</budzet>
+        <box_office>120072577</box_office>
+        <data_premiery>24-05-2002</data_premiery>
+        <ocena_filmweb>8.3</ocena_filmweb>
+  </film>
+	<film gatunekID= "Fantasy" kraj_id="us">
+        <tytul>Pirates of the Caribbean: The Curse of the Black Pearl</tytul>
+        <rezyser>Gore Verbinski</rezyser>
+        <scenariusz>Ted Elliott</scenariusz>
+        <budzet>140000000</budzet>
+        <box_office>654264015</box_office>
+        <data_premiery>28-06-2003</data_premiery>
+        <ocena_filmweb>7.7</ocena_filmweb>
+  </film>
+	<film gatunekID= "Dramat" kraj_id="us" >
+        <tytul>Schindler's List</tytul>
+        <rezyser>Steven Spielberg</rezyser>
+        <scenariusz>Steven Zaillian</scenariusz>
+        <budzet>96898818</budzet>
+        <box_office>322139355</box_office>
+        <data_premiery>30-11-1993</data_premiery>
+        <ocena_filmweb>8.4</ocena_filmweb>
+  </film>
+	<film gatunekID= "Fantasy" kraj_id="us" obejrzane="Tak">
+        <tytul>The Lord of the Rings: The Return of the King</tytul>
+        <rezyser>Peter Jackson</rezyser>
+        <scenariusz>Peter Jackson</scenariusz>
+        <budzet>94000000</budzet>
+        <box_office>1141999888</box_office>
+        <data_premiery>01-12-2003</data_premiery>
+        <ocena_filmweb>8.4</ocena_filmweb>
+  </film>
+	<film gatunekID= "Dramat" kraj_id="gb" >
+        <tytul>Slumdog Millionaire</tytul>
+        <rezyser>Danny Boyle</rezyser>
+        <scenariusz>Simon Beaufoy</scenariusz>
+        <budzet>15000000</budzet>
+        <box_office>377910544</box_office>
+        <data_premiery>30-08-2008</data_premiery>
+        <ocena_filmweb>7.4</ocena_filmweb>
+  </film>
+	<film gatunekID= "Dramat" kraj_id="us" >
+        <tytul>Cast Away</tytul>
+        <rezyser>Robert Zemeckis</rezyser>
+        <scenariusz>William Broyles Jr.</scenariusz>
+        <budzet>90000000</budzet>
+        <box_office>429632142</box_office>
+        <data_premiery>07-12-2000</data_premiery>
+        <ocena_filmweb>7.5</ocena_filmweb>
+  </film>
+	<film gatunekID= "Thriller" kraj_id="fr" >
+        <tytul>The Da Vinci Code</tytul>
+        <rezyser>Ron Howard</rezyser>
+        <scenariusz>Akiva Goldsman</scenariusz>
+        <budzet>125000000</budzet>
+        <box_office>760006945</box_office>
+        <data_premiery>17-05-2006</data_premiery>
+        <ocena_filmweb>6.7</ocena_filmweb>
+  </film>
+	<film gatunekID= "Sci-Fi" kraj_id="gb" obejrzane="Tak">
+        <tytul>Interstellar</tytul>
+        <rezyser>Christopher Nolan</rezyser>
+        <scenariusz>Jonathan Nolan</scenariusz>
+        <budzet>165000000</budzet>
+        <box_office>695273265</box_office>
+        <data_premiery>26-10-2014</data_premiery>
+        <ocena_filmweb>7.4</ocena_filmweb>
+  </film>
+	<film gatunekID= "Sci-Fi" kraj_id="gb">
+        <tytul>The Dark Knight Rises</tytul>
+        <rezyser>Christopher Nolan</rezyser>
+        <scenariusz>Christopher Nolan</scenariusz>
+        <budzet>250000000</budzet>
+        <box_office>1081094887</box_office>
+        <data_premiery>16-07-2012</data_premiery>
+        <ocena_filmweb>7.7</ocena_filmweb>
+  </film>
+</kolekcja_filmów>
+</root>

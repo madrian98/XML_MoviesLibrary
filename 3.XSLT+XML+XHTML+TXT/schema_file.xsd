@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.example.com"
+            xmlns:nasze="http://www.example.com" 
+            elementFormDefault="qualified">
+    
+    <xsd:simpleType name="title">
+        <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="100"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:simpleType name="person">
+        <xsd:restriction base="xsd:string">
+            <xsd:maxLength value="30"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:simpleType name="budget">
+        <xsd:restriction base="xsd:integer">
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:simpleType name="box_office">
+        <xsd:restriction base="xsd:integer">
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:simpleType name="release_date">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[0-9]{2}-[0-9]{2}-[0-9]{4}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:simpleType name="rate">
+        <xsd:restriction base="xsd:decimal">
+            <xsd:minInclusive value="0"/>
+            <xsd:maxInclusive value="10" />
+            <xsd:pattern value="(\d.\d)|(\d{2}.\d)"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:simpleType name="genres">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Fantasy"/>
+            <xsd:enumeration value="Sci-Fi"/>
+            <xsd:enumeration value="Dramat"/>
+            <xsd:enumeration value="Thriller"/>
+            <xsd:enumeration value="Historyczny"/>
+            <xsd:enumeration value="Komedia"/>
+            <xsd:enumeration value="Wojenny"/>
+            <xsd:enumeration value="Katastroficzny"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    
+    <xsd:complexType name="kraje">
+        <xsd:sequence>
+            <xsd:element name="kraj_produkcji" maxOccurs="unbounded">
+                <xsd:complexType>
+                    <xsd:simpleContent>
+                        <xsd:extension base="xsd:token">
+                            <xsd:attribute name="country_id" type="xsd:token"/>
+                        </xsd:extension>
+                    </xsd:simpleContent>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="movie_group">
+        <xsd:group ref="nasze:movie_spec"/>
+    </xsd:complexType>
+    
+    <xsd:group name="movie_spec">
+        <xsd:sequence>
+            <xsd:element name="tytul" type="nasze:title"/>
+            <xsd:element name="rezyser" type="nasze:person"/>
+            <xsd:element name="scenariusz" type="nasze:person"/>
+            <xsd:element name="budzet" type="nasze:budget"/>
+            <xsd:element name="box_office" type="nasze:box_office"/>
+            <xsd:element name="data_premiery" type="nasze:release_date"/>
+            <xsd:element name="ocena_filmweb" type="nasze:rate"/>
+        </xsd:sequence>
+    </xsd:group>
+    
+    <xsd:complexType name="movie_list">
+        <xsd:sequence>
+            <xsd:element name="film" maxOccurs="unbounded">
+                <xsd:annotation>
+                    <xsd:documentation>To jest początek listy filmów</xsd:documentation>
+                </xsd:annotation>
+                <xsd:complexType>
+                    <xsd:complexContent>
+                        <xsd:extension base="nasze:movie_group">
+                            <xsd:attribute name="gatunekID" type="nasze:genres" use="required"/>
+                            <xsd:attribute name="kraj_id" type="xsd:token" use="required"/>
+                            <xsd:attribute name="obejrzane" type="xsd:string" use="optional" default="Nie"/>
+                        </xsd:extension>
+                    </xsd:complexContent>
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:element name="root">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element type="xsd:string" name="name"/>
+                <xsd:element name="opis" type="xsd:string"/>
+                <xsd:element name="autorzy">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="student" type="nasze:person" maxOccurs="2"/>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="country"  type="nasze:kraje">
+                    <xsd:annotation>
+                        <xsd:documentation>To jest początek listy krajów</xsd:documentation>
+                    </xsd:annotation>
+                </xsd:element>
+                <xsd:element name="gatunki">
+                    <xsd:annotation>
+                        <xsd:documentation>To jest początek listy gatunków</xsd:documentation>
+                    </xsd:annotation>
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="gatunek" maxOccurs="unbounded">
+                                <xsd:complexType>
+                                    <xsd:simpleContent>
+                                        <xsd:extension base="xsd:string">
+                                            <xsd:attribute name="gatunekID" type="nasze:genres"/>
+                                        </xsd:extension>
+                                    </xsd:simpleContent>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="kolekcja_filmów" type="nasze:movie_list">
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+                     <xsd:keyref name="country_ref" refer="nasze:country">
+                        <xsd:selector xpath="./nasze:kolekcja_filmów/nasze:film"/>
+                        <xsd:field xpath="@kraj_id"/>
+                    </xsd:keyref>
+                    <xsd:key name="country">
+                        <xsd:selector xpath="./nasze:country/nasze:kraj_produkcji"/>
+                        <xsd:field xpath="@country_id"/>
+                    </xsd:key>
+    </xsd:element>
+    
+</xsd:schema>

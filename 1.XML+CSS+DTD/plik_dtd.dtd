@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT root (name,opis,autorzy,gatunki,kolekcja_filmów)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT opis (#PCDATA)>
+<!ELEMENT autorzy (student+)>
+<!ELEMENT student (#PCDATA)>
+<!ELEMENT gatunki (gatunek+)>
+<!ELEMENT gatunek (#PCDATA)>
+<!ELEMENT kolekcja_filmów (film+)>
+<!ELEMENT film (tytul,rezyser,scenariusz,budzet,box_office,data_premiery,ocena_filmweb,kraj_produkcji)>
+<!ELEMENT tytul (#PCDATA)>
+<!ELEMENT rezyser (#PCDATA)>
+<!ELEMENT scenariusz (#PCDATA)>
+<!ELEMENT budzet (#PCDATA)>
+<!ELEMENT box_office (#PCDATA)>
+<!ELEMENT data_premiery (#PCDATA)>
+<!ELEMENT ocena_filmweb (#PCDATA)>
+<!ELEMENT kraj_produkcji (#PCDATA)>
+<!ATTLIST film gatunekID IDREF #REQUIRED>
+<!ATTLIST gatunek gatunekID ID #REQUIRED>

@@ -1,0 +1,91 @@
+Kolekcja filmów
+Mateusz Adrian                                              Krystian Kikowski                                           
+-------------------------------------------------------------------------------
+
+_____________________________________________________________________________________________________________________________________________
+|   Tytuł     |  Gatunek  | Reżyser |  Ocena  |   Budżet |       Box Office      |       Premiera     |       Ocena    |      Kraj Produkcji   | Cast Away                                                   Dramat                                       William Broyles Jr.                          90000000                                     429632142                                    07-12-2000                                   7.5                                          Stany Zjednoczone                            
+Forrest Gump                                                Dramat                                       Eric Roth                                    55000000                                     683095371                                    23-06-1994                                   8.5                                          Stany Zjednoczone                            
+Schindler's List                                            Dramat                                       Steven Zaillian                              96898818                                     322139355                                    30-11-1993                                   8.4                                          Stany Zjednoczone                            
+Slumdog Millionaire                                         Dramat                                       Simon Beaufoy                                15000000                                     377910544                                    30-08-2008                                   7.4                                          Wielka Brytania                              
+The Green Mile                                              Dramat                                       Frank Darabont                               60000000                                     286801374                                    06-12-1999                                   8.6                                          Stany Zjednoczone                            
+The Shawshank Redemption                                    Dramat                                       Frank Darabont                               25000000                                     59841469                                     10-09-1994                                   8.8                                          Stany Zjednoczone                            
+Lord of the Rings: The Two Towers                           Fantasy                                      Peter Jackson                                94000000                                     951227065                                    05-12-2002                                   8.3                                          Nowa Zelandia                                
+Pirates of the Caribbean: The Curse of the Black Pearl      Fantasy                                      Ted Elliott                                  140000000                                    654264015                                    28-06-2003                                   7.7                                          Stany Zjednoczone                            
+The Lord of the Rings: The Return of the King               Fantasy                                      Peter Jackson                                94000000                                     1141999888                                   01-12-2003                                   8.4                                          Stany Zjednoczone                            
+Gladiator                                                   Historyczny                                  David Franzoni                               103000000                                    465361176                                    01-05-2000                                   8.1                                          Wielka Brytania                              
+Titanic                                                     Katastroficzny                               James Cameron                                200000000                                    2195169138                                   01-11-1997                                   7.3                                          Stany Zjednoczone                            
+Shrek                                                       Komedia                                      Joe Stillman                                 6000000                                      487769799                                    22-04-2001                                   7.8                                          Stany Zjednoczone                            
+Avatar                                                      Sci-Fi                                       James Cameron                                237000000                                    2790439092                                   10-02-2009                                   8.5                                          Wielka Brytania                              
+Blade Runner 2049                                           Sci-Fi                                       Hampton Fancher                              150000000                                    259239658                                    03-10-2017                                   7.5                                          Kanada                                       
+Inception                                                   Sci-Fi                                       Christopher Nolan                            160000000                                    836836967                                    08-07-2010                                   8.3                                          Stany Zjednoczone                            
+Interstellar                                                Sci-Fi                                       Jonathan Nolan                               165000000                                    695273265                                    26-10-2014                                   7.4                                          Wielka Brytania                              
+The Dark Knight Rises                                       Sci-Fi                                       Christopher Nolan                            250000000                                    1081094887                                   16-07-2012                                   7.7                                          Wielka Brytania                              
+The Matrix                                                  Sci-Fi                                       Lana Wachowski                               63000000                                     465351367                                    24-03-1999                                   7.6                                          Australia                                    
+The Da Vinci Code                                           Thriller                                     Akiva Goldsman                               125000000                                    760006945                                    17-05-2006                                   6.7                                          Francja                                      
+The Silence of the Lambs                                    Thriller                                     Ted Tally                                    19000000                                     272742922                                    30-01-1991                                   8.2                                          Stany Zjednoczone                            
+Saving Private Ryan                                         Wojenny                                      Robert Rodat                                 70000000                                     482349603                                    24-07-1998                                   8.1                                          Stany Zjednoczone                            
+The Pianist                                                 Wojenny                                      Ronald Harwood                               35000000                                     120072577                                    24-05-2002                                   8.3                                          Francja                                      
+
+-------------------------------------------------------------------------------
+
+Podsumowanie:
+
+Liczba gatunków: 8
+Liczba filmów fantasy: 3
+Liczba filmow sciFi 6
+Liczba dramatów: 6
+Liczba thrillerów: 2
+
+Liczba filmów historycznych 1
+Liczba filmów komediowych: 1
+Liczba filmów wojennych: 2
+
+Liczba filmów katastroficznych: 1
+
+Średnia ocena wszystkich gatunków: 7.96
+Średnia ocena filmów fantasy: 8.13
+Średnia ocena filmow sciFi: 7.83
+Średnia ocena  dramatów: 8.20
+Średnia ocena thrillerów: 7.45
+
+Średnia ocena filmów historycznych: 8.10
+Średnia ocena filmów komediowych: 7.80
+
+Średnia ocena filmów wojennych: 8.20
+Średnia ocena filmów katastroficznych: 7.30
+Średni budżet wszystkich gatunków: 102,404,492
+
+Średni budżet filmów fantasy: 109,333,333
+
+Średni budżet filmow sciFi: 170,833,333
+
+Średni budżet  dramatów: 56,983,136
+
+Średni budżet thrillerów: 72,000,000
+
+Średni budżet filmów historycznych: 103,000,000
+
+Średni budżet filmów komediowych: 6,000,000
+
+Średni budżet filmów wojennych: 52,500,000
+
+Średni budżet filmów katastroficznych: 200,000,000
+
+Średni zysk wszystkich gatunków: 15,716,214,127
+
+Średni zysk filmów fantasy: 2,638,157,635
+
+Średni zysk filmow sciFi: 5,957,401,903
+
+Średni zysk  dramatów: 2,102,437,119
+
+Średni zysk thrillerów: 960,749,867
+
+Średni zysk filmów historycznych: 362,361,176
+
+Średni zysk filmów komediowych: 481,769,799
+
+Średni zysk filmów wojennych: 549,922,180
+
+Średni zysk filmów katastroficznych: 1,995,169,138
+
