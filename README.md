@@ -8,3 +8,5 @@ XML project containing data about popular movies on polish website service - fil
 **Polish language version.**
 
 ![Gif](https://github.com/madrian98/XML_Filmy/blob/main/1.XML%2BCSS%2BDTD/gif.gif)
+
+*** Made for a school project. Worked locally with friend , then uploaded to GitHub. This is why there are only 8 commits. ***
